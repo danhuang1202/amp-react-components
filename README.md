@@ -43,6 +43,39 @@ import AspectRatioImg from 'amp-react-components/es/components/AmpLightbox'
   <AmpLightbox {...props} />
 ```
 
+### CSS Module
+```js
+// style.css
+.img {
+  position: relative;
+  border-radius: 8px;
+  border: solid 1px #e0e4e9;
+  box-sizing: border-box;
+
+  > img {
+    border-radius: 8px;
+  }
+}
+```
+
+```js
+// index.js
+import { AmpImg } from 'amp-react-components'
+import styles from './style.css'
+
+function Compoment({...}) {
+  return (
+    <AmpImg
+      className ={styles.img}
+      src={image}
+      width="1"
+      height="1"
+      layout="responsive"
+    />
+  )
+}
+```
+
 ### Styled Components
 ```js
 import styled from 'styled-components'
@@ -70,7 +103,7 @@ function Compoment({...}) {
 }
 ```
 
-### AMP components (`AmpState`) with script tag
+### AMP Component (`AmpState`) with Script Tag
 ```js
 import { AmpImg, AmpState } from 'amp-react-components'
 
