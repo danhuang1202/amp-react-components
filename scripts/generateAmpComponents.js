@@ -2,6 +2,8 @@ const fs = require('fs-extra')
 const path = require('path')
 const puppeteer = require('puppeteer')
 const EXCLUDE_AMP_COMPONENTS = ['amp-bind', 'amp-animation']
+const EXCLUDE_MODULES = ['amp-bind']
+const CUSTOM_COMPONENTS = ['AmpScriptTag', 'AmpState']
 
 async function getAmpComponents() {
   const browser = await puppeteer.launch()
@@ -75,12 +77,13 @@ function writeIndex(names) {
   }
 }
 
-getAmpComponents().then((components) => {
-  const names = components.filter(name => EXCLUDE_AMP_COMPONENTS.indexOf(name) === -1).map(name => getComponentName(name))
+getAmpComponents().then((ampComponents) => {
+  const components = ampComponents.filter(name => EXCLUDE_AMP_COMPONENTS.indexOf(name) === -1).map(name => getComponentName(name))
 
-  for (let name of names) {
+  for (let name of components) {
     writeReactComponent(name)
   }
 
-  writeIndex(names)
+  const modules = ampComponents.filter(name => EXCLUDE_MODULES.indexOf(name) === -1).map(name => getComponentName(name)).concat(CUSTOM_COMPONENTS)
+  writeIndex(modules)
 })

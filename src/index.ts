@@ -18,7 +18,6 @@ import AmpAutoAds from './components/AmpAutoAds'
 import AmpAutocomplete from './components/AmpAutocomplete'
 import AmpBaseCarousel from './components/AmpBaseCarousel'
 import AmpBeopinion from './components/AmpBeopinion'
-import AmpBind from './components/AmpBind'
 import AmpBodymovinAnimation from './components/AmpBodymovinAnimation'
 import AmpBridPlayer from './components/AmpBridPlayer'
 import AmpBrightcove from './components/AmpBrightcove'
@@ -123,6 +122,8 @@ import AmpWebPush from './components/AmpWebPush'
 import AmpWistiaPlayer from './components/AmpWistiaPlayer'
 import AmpYotpo from './components/AmpYotpo'
 import AmpYoutube from './components/AmpYoutube'
+import AmpScriptTag from './components/AmpScriptTag'
+import AmpState from './components/AmpState'
 
 
 export {
@@ -146,7 +147,6 @@ export {
   AmpAutocomplete,
   AmpBaseCarousel,
   AmpBeopinion,
-  AmpBind,
   AmpBodymovinAnimation,
   AmpBridPlayer,
   AmpBrightcove,
@@ -250,5 +250,7 @@ export {
   AmpWebPush,
   AmpWistiaPlayer,
   AmpYotpo,
-  AmpYoutube 
+  AmpYoutube,
+  AmpScriptTag,
+  AmpState 
 }
