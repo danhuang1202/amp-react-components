@@ -1,0 +1,13 @@
+## 1.0.0 (2019-10-13)
+
+* ci: remove unused commend ([439b61e](https://github.com/danhuang1202/amp-react-components/commit/439b61e))
+* ci: update npm scripts ([c27e15e](https://github.com/danhuang1202/amp-react-components/commit/c27e15e))
+* fix: import AmpScriptTag ([07ef9b1](https://github.com/danhuang1202/amp-react-components/commit/07ef9b1))
+* fix: update babel.config.js to remove unused import ([2af8402](https://github.com/danhuang1202/amp-react-components/commit/2af8402))
+* fix: update rollup.config.js to build each amp components ([0f20b06](https://github.com/danhuang1202/amp-react-components/commit/0f20b06))
+* feat: export AmpScriptTag AmpState ([0cda000](https://github.com/danhuang1202/amp-react-components/commit/0cda000))
+* feat: use AmpScriptTag to render amp component with script tag ([9061934](https://github.com/danhuang1202/amp-react-components/commit/9061934))
+* docs: update readme ([88a55d5](https://github.com/danhuang1202/amp-react-components/commit/88a55d5))
+* docs: update readme ([793dbbe](https://github.com/danhuang1202/amp-react-components/commit/793dbbe))
+* initial commit ([eee94b9](https://github.com/danhuang1202/amp-react-components/commit/eee94b9))
+* Update nodejs.yml ([f4bacbe](https://github.com/danhuang1202/amp-react-components/commit/f4bacbe))
