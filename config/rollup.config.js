@@ -32,16 +32,16 @@ const entries = [
 ]
 
 const componentPath = path.join(__dirname, '../src/components/')
-fs.readdirSync(componentPath).forEach(directory => {
+fs.readdirSync(componentPath).forEach(filename => {
   entries.push({
-    input: `src/components/${directory}/index.tsx`,
+    input: `src/components/${filename}`,
     output: [
       {
-        dir: `lib/components/${directory}`,
+        dir: `lib/components`,
         format: 'cjs'
       },
       {
-        dir: `es/components/${directory}`,
+        dir: `es/components`,
         format: 'es'
       }
     ]
