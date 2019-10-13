@@ -1,4 +1,6 @@
 # amp-react-components
+[![Actions Status](https://github.com/danhuang1202/amp-react-components/workflows/Node/badge.svg)](https://github.com/danhuang1202/amp-react-components/actions)
+[![NPM version](https://img.shields.io/npm/v/amp-react-components.svg)](https://www.npmjs.com/package/amp-react-components)
 
 Render AMP components with React.
 1. Support <a href="https://www.styled-components.com/docs/advanced#existing-css">styled-components</a> by passed-in `className` prop,
@@ -68,7 +70,7 @@ function Compoment({...}) {
 }
 ```
 
-### AMP components with script
+### AMP components (`AmpState`) with script tag
 ```js
 import { AmpImg, AmpState } from 'amp-react-components'
 
