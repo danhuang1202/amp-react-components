@@ -1,0 +1,10 @@
+.eslintignore
+.eslintrc
+.gitignore
+.prettierignore
+.prettierrc
+.vscode
+.github
+.travis.yml
+src/
+package-lock.json

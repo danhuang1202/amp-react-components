@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "jsx": "react",
+    "moduleResolution": "node",
+    "paths": {
+      "@components/*": ["src/components/*"]
+    },
+    "rootDir": "src",
+    "declaration": true,
+    "emitDeclarationOnly": true
+  },
+  "include": ["src", "config"],
+  "exclude": ["node_modules"]
+}

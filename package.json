@@ -1,0 +1,85 @@
+{
+  "name": "amp-react-components",
+  "version": "0.0.0",
+  "description": "Render AMP components with React",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "types": "type/index.d.ts",
+  "scripts": {
+    "ci-publish": "npx semantic-release",
+    "ci-build": "npm run build:bundle && npm run build:type",
+    "build:bundle": "rollup -c ./config/rollup.config.js",
+    "build:type": "tsc --project ./config/tsconfig.type.json",
+    "lint": "eslint './src/**/*.{ts,tsx}'",
+    "prettier": "prettier --check ./**/*.{ts,tsx,js,css,json}",
+    "code:generator": "node ./scripts/generateAmpComponents.js"
+  },
+  "husky": {
+    "hooks": {
+      "prepare-commit-msg": "exec < /dev/tty && git cz --hook",
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "./**/*.{ts,tsx,js,css,json}": [
+      "prettier --write",
+      "git add"
+    ],
+    "./**/*.{ts,tsx,js}": "eslint --max-warnings 0 --no-ignore"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danhuang1202/amp-react-components"
+  },
+  "keywords": [
+    "amp",
+    "react",
+    "styled-components"
+  ],
+  "author": "danhuang",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.8.6"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.3.3",
+    "@semantic-release/changelog": "^3.0.4",
+    "@semantic-release/git": "^7.0.16",
+    "@types/jest": "^24.0.18",
+    "@types/node": "^11.13.19",
+    "@types/react": "^16.9.2",
+    "@typescript-eslint/eslint-plugin": "^1.7.0",
+    "@typescript-eslint/parser": "^1.7.0",
+    "babel-jest": "^24.9.0",
+    "babel-loader": "^8.0.5",
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "^3.0.2",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-react": "^7.13.0",
+    "fs-extra": "^8.1.0",
+    "husky": "^3.0.4",
+    "lint-staged": "^8.1.6",
+    "prettier": "^1.17.0",
+    "puppeteer": "^1.20.0",
+    "rollup": "^1.19.4",
+    "rollup-plugin-alias": "^1.5.1",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-commonjs": "^9.3.4",
+    "rollup-plugin-node-resolve": "^4.2.3",
+    "rollup-plugin-peer-deps-external": "^2.2.0",
+    "semantic-release": "^15.13.21",
+    "typescript": "^3.4.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
