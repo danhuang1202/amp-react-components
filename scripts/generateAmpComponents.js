@@ -1,12 +1,7 @@
 const fs = require('fs-extra')
 const path = require('path')
 const puppeteer = require('puppeteer')
-
-const commonProps = `
-    /** Custom class name of the wrap component. */
-    className?: string
-    /** Children node. */
-    children?: ReactNode`
+const EXCLUDE_AMP_COMPONENTS = ['amp-bind', 'amp-animation']
 
 async function getAmpComponents() {
   const browser = await puppeteer.launch()
@@ -81,7 +76,7 @@ function writeIndex(names) {
 }
 
 getAmpComponents().then((components) => {
-  const names = components.map(name => getComponentName(name))
+  const names = components.filter(name => EXCLUDE_AMP_COMPONENTS.indexOf(name) === -1).map(name => getComponentName(name))
 
   for (let name of names) {
     writeReactComponent(name)

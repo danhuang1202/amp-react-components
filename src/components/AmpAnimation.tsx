@@ -1,19 +1,22 @@
-import React, {ReactElement} from 'react'
+import React, { ReactElement } from 'react'
+import AmpScript from './AmpScript'
 
 type Props = {
-  /** class name of component. */
-  className?: string
-  /** rest props of component */
-  props: object
+  /** id for amp-animation component */
+  id: string
+  /** A document-scope, mutable JSON animation. */
+  animation: object
 }
 
-function AmpAnimation({
-  className, ...props
-}: Props): ReactElement{
+function AmpAnimation({ id, animation }: Props): ReactElement {
   return (
-    <AmpAnimation 
-      className={className}
-      {...props}
+    <AmpScript
+      tag="amp-animation"
+      attribute={{
+        id,
+        layout: 'nodisplay'
+      }}
+      data={animation}
     />
   )
 }
