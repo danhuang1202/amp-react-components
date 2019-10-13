@@ -6,12 +6,12 @@
   "module": "es/index.js",
   "types": "type/index.d.ts",
   "scripts": {
-    "ci-publish": "npx semantic-release",
-    "ci-build": "npm run build:bundle && npm run build:type",
+    "build": "npm run build:bundle && npm run build:type",
     "build:bundle": "rollup -c ./config/rollup.config.js",
     "build:type": "tsc --project ./config/tsconfig.type.json",
     "lint": "eslint './src/**/*.{ts,tsx}'",
     "prettier": "prettier --check ./**/*.{ts,tsx,js,css,json}",
+    "publish": "npx semantic-release",
     "code:generator": "node ./scripts/generateAmpComponents.js"
   },
   "husky": {
