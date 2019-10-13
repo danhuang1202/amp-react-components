@@ -97,6 +97,4 @@ function Compoment({...}) {
     </>
   )
 }
-
-<AmpState id={stateId} state={state} />
 ```
