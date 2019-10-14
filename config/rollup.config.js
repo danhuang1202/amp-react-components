@@ -31,10 +31,27 @@ const entries = [
   }
 ]
 
-const componentPath = path.join(__dirname, '../src/components/')
+const codegenPath = path.join(__dirname, '../src/components/codegen/')
 fs.readdirSync(componentPath).forEach(filename => {
   entries.push({
-    input: `src/components/${filename}`,
+    input: `src/components/codegen/${filename}`,
+    output: [
+      {
+        dir: `lib/components`,
+        format: 'cjs'
+      },
+      {
+        dir: `es/components`,
+        format: 'es'
+      }
+    ]
+  })
+})
+
+const scriptPath = path.join(__dirname, '../src/components/script/')
+fs.readdirSync(scriptPath).forEach(filename => {
+  entries.push({
+    input: `src/components/script/${filename}`,
     output: [
       {
         dir: `lib/components`,

@@ -48,7 +48,7 @@ export default ${component}
 function writeReactComponent(tag) {
   const component = getComponentName(tag)
   const content = generateReactComponent(tag, component)
-  const filename = path.resolve(__dirname, `../src/components/${component}.tsx`)
+  const filename = path.resolve(__dirname, `../src/components/codegen/${component}.tsx`)
   try {
     fs.writeFileSync(filename, content)
   } catch(error) {
@@ -57,13 +57,17 @@ function writeReactComponent(tag) {
 }
 
 function generateIndex() {
-  const componentPath = path.join(__dirname, '../src/components/')
-  const names = fs.readdirSync(componentPath).map(filename => filename.split('.')[0])
+  const codegenPath = path.join(__dirname, '../src/components/codegen')
+  const codegenFilenames = fs.readdirSync(codegenPath).map(filename => filename.split('.')[0])
+  const scriptPath = path.join(__dirname, '../src/components/script')
+  const scriptFilenames = fs.readdirSync(scriptPath).map(filename => filename.split('.')[0])
   
-  return `${names.map(name => `import ${name} from './components/${name}'
+  return `${codegenFilenames.map(name => `import ${name} from './components/codegen/${name}'
+`).join('')}${scriptFilenames.map(name => `import ${name} from './components/script/${name}'
 `).join('')}
 
-export {${names.map(name => `
+export {${codegenFilenames.map(name => `
+  ${name},`).join('')}${scriptFilenames.map(name => `
   ${name}`).join(',')} 
 }
 `

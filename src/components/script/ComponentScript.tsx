@@ -9,7 +9,7 @@ type Props = {
   data: object
 }
 
-function AmpScript({ tag, attribute, data }: Props): ReactElement {
+function ComponentScript({ tag, attribute, data }: Props): ReactElement {
   const script = React.createElement('script', {
     type: 'application/json',
     dangerouslySetInnerHTML: {
@@ -19,4 +19,4 @@ function AmpScript({ tag, attribute, data }: Props): ReactElement {
   return React.createElement(tag, attribute, script)
 }
 
-export default AmpScript
+export default ComponentScript
