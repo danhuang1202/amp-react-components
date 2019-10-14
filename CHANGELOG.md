@@ -1,3 +1,11 @@
+## 1.1.0 (2019-10-14)
+
+* feat: update amp component name to keba case and generate react-ext.d.ts ([5447e0f](https://github.com/danhuang1202/amp-react-components/commit/5447e0f))
+* chore: update code generator script ([21cb8ac](https://github.com/danhuang1202/amp-react-components/commit/21cb8ac))
+* fix: pass className prop to class ([2bddabf](https://github.com/danhuang1202/amp-react-components/commit/2bddabf))
+* docs: add css module example in readme ([8e47aaa](https://github.com/danhuang1202/amp-react-components/commit/8e47aaa))
+* docs: update readme with badge ([3fc9849](https://github.com/danhuang1202/amp-react-components/commit/3fc9849))
+
 ## 1.0.0 (2019-10-13)
 
 * ci: remove unused commend ([439b61e](https://github.com/danhuang1202/amp-react-components/commit/439b61e))
