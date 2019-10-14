@@ -3,9 +3,9 @@
 [![NPM version](https://img.shields.io/npm/v/amp-react-components.svg)](https://www.npmjs.com/package/amp-react-components)
 
 Render AMP components with React.
-1. Support <a href="https://www.styled-components.com/docs/advanced#existing-css">styled-components</a> by passed-in `className` prop,
-and attaches `className` prop to `class` prop of AMP HTML tag duo to React does't support <a href="https://github.com/facebook/react/issues/11347#issuecomment-339830484">custom element attributes</a> now.
-2. Render script tag with JSON object inside to support  <a href="https://amp.dev/documentation/components/amp-animation/?format=websites">amp-animation</a> and <a href="https://amp.dev/documentation/components/amp-bind/?format=websites">amp-bind</a>
+1. Support <a href="https://www.styled-components.com/docs/advanced#existing-css">styled-components</a> by passed-in `className` prop.
+2. Attaches `className` prop to `class` prop of AMP elements for supporting HTML class attribute. Now React does't support <a href="https://github.com/facebook/react/issues/11347#issuecomment-339830484">custom element attributes</a>, so the `<amp-img className="img" />` will be rendered as `<amp-img classname="img" />`
+3. Render script tag with `type=application/json` to support AMP components, such as <a href="https://amp.dev/documentation/components/amp-animation/?format=websites">amp-animation</a> and <a href="https://amp.dev/documentation/components/amp-bind/?format=websites">amp-bind</a>
 
 ## Installation
 ```
