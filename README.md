@@ -1,5 +1,5 @@
 # amp-react-components
-[![Actions Status](https://github.com/danhuang1202/amp-react-components/workflows/Node/badge.svg)](https://github.com/danhuang1202/amp-react-components/actions)
+[![Actions Status](https://github.com/danhuang1202/amp-react-components/workflows/Node/badge.svg)](https://github.com/danhuang1202/amp-react-components/actions?workflow=Node)
 [![NPM version](https://img.shields.io/npm/v/amp-react-components.svg)](https://www.npmjs.com/package/amp-react-components)
 
 Render AMP components with React.
