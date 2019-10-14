@@ -1,12 +1,12 @@
 import Amp3dGltf from './components/Amp3dGltf'
 import Amp3qPlayer from './components/Amp3qPlayer'
+import AmpAccess from './components/AmpAccess'
 import AmpAccessLaterpay from './components/AmpAccessLaterpay'
 import AmpAccessPoool from './components/AmpAccessPoool'
-import AmpAccess from './components/AmpAccess'
 import AmpAccordion from './components/AmpAccordion'
 import AmpActionMacro from './components/AmpActionMacro'
-import AmpAdExit from './components/AmpAdExit'
 import AmpAd from './components/AmpAd'
+import AmpAdExit from './components/AmpAdExit'
 import AmpAddthis from './components/AmpAddthis'
 import AmpAnalytics from './components/AmpAnalytics'
 import AmpAnim from './components/AmpAnim'
@@ -34,10 +34,10 @@ import AmpDelightPlayer from './components/AmpDelightPlayer'
 import AmpDynamicCssClasses from './components/AmpDynamicCssClasses'
 import AmpEmbedlyCard from './components/AmpEmbedlyCard'
 import AmpExperiment from './components/AmpExperiment'
+import AmpFacebook from './components/AmpFacebook'
 import AmpFacebookComments from './components/AmpFacebookComments'
 import AmpFacebookLike from './components/AmpFacebookLike'
 import AmpFacebookPage from './components/AmpFacebookPage'
-import AmpFacebook from './components/AmpFacebook'
 import AmpFitText from './components/AmpFitText'
 import AmpFont from './components/AmpFont'
 import AmpForm from './components/AmpForm'
@@ -61,8 +61,8 @@ import AmpInstallServiceworker from './components/AmpInstallServiceworker'
 import AmpIzlesene from './components/AmpIzlesene'
 import AmpJwplayer from './components/AmpJwplayer'
 import AmpKalturaPlayer from './components/AmpKalturaPlayer'
-import AmpLightboxGallery from './components/AmpLightboxGallery'
 import AmpLightbox from './components/AmpLightbox'
+import AmpLightboxGallery from './components/AmpLightboxGallery'
 import AmpLinkRewriter from './components/AmpLinkRewriter'
 import AmpList from './components/AmpList'
 import AmpLiveList from './components/AmpLiveList'
@@ -87,6 +87,7 @@ import AmpRecaptchaInput from './components/AmpRecaptchaInput'
 import AmpReddit from './components/AmpReddit'
 import AmpRiddleQuiz from './components/AmpRiddleQuiz'
 import AmpScript from './components/AmpScript'
+import AmpScriptTag from './components/AmpScriptTag'
 import AmpSelector from './components/AmpSelector'
 import AmpShareTracking from './components/AmpShareTracking'
 import AmpSidebar from './components/AmpSidebar'
@@ -95,24 +96,25 @@ import AmpSmartlinks from './components/AmpSmartlinks'
 import AmpSocialShare from './components/AmpSocialShare'
 import AmpSoundcloud from './components/AmpSoundcloud'
 import AmpSpringboardPlayer from './components/AmpSpringboardPlayer'
+import AmpState from './components/AmpState'
 import AmpStickyAd from './components/AmpStickyAd'
+import AmpStory from './components/AmpStory'
 import AmpStoryAutoAds from './components/AmpStoryAutoAds'
 import AmpStoryBookend from './components/AmpStoryBookend'
 import AmpStoryCtaLayer from './components/AmpStoryCtaLayer'
 import AmpStoryGridLayer from './components/AmpStoryGridLayer'
-import AmpStoryPageAttachment from './components/AmpStoryPageAttachment'
 import AmpStoryPage from './components/AmpStoryPage'
-import AmpStory from './components/AmpStory'
-import AmpSubscriptionsGoogle from './components/AmpSubscriptionsGoogle'
+import AmpStoryPageAttachment from './components/AmpStoryPageAttachment'
 import AmpSubscriptions from './components/AmpSubscriptions'
+import AmpSubscriptionsGoogle from './components/AmpSubscriptionsGoogle'
 import AmpTimeago from './components/AmpTimeago'
 import AmpTruncateText from './components/AmpTruncateText'
 import AmpTwitter from './components/AmpTwitter'
 import AmpUserLocation from './components/AmpUserLocation'
 import AmpUserNotification from './components/AmpUserNotification'
+import AmpVideo from './components/AmpVideo'
 import AmpVideoDocking from './components/AmpVideoDocking'
 import AmpVideoIframe from './components/AmpVideoIframe'
-import AmpVideo from './components/AmpVideo'
 import AmpVimeo from './components/AmpVimeo'
 import AmpVine from './components/AmpVine'
 import AmpViqeoPlayer from './components/AmpViqeoPlayer'
@@ -122,20 +124,18 @@ import AmpWebPush from './components/AmpWebPush'
 import AmpWistiaPlayer from './components/AmpWistiaPlayer'
 import AmpYotpo from './components/AmpYotpo'
 import AmpYoutube from './components/AmpYoutube'
-import AmpScriptTag from './components/AmpScriptTag'
-import AmpState from './components/AmpState'
 
 
 export {
   Amp3dGltf,
   Amp3qPlayer,
+  AmpAccess,
   AmpAccessLaterpay,
   AmpAccessPoool,
-  AmpAccess,
   AmpAccordion,
   AmpActionMacro,
-  AmpAdExit,
   AmpAd,
+  AmpAdExit,
   AmpAddthis,
   AmpAnalytics,
   AmpAnim,
@@ -163,10 +163,10 @@ export {
   AmpDynamicCssClasses,
   AmpEmbedlyCard,
   AmpExperiment,
+  AmpFacebook,
   AmpFacebookComments,
   AmpFacebookLike,
   AmpFacebookPage,
-  AmpFacebook,
   AmpFitText,
   AmpFont,
   AmpForm,
@@ -190,8 +190,8 @@ export {
   AmpIzlesene,
   AmpJwplayer,
   AmpKalturaPlayer,
-  AmpLightboxGallery,
   AmpLightbox,
+  AmpLightboxGallery,
   AmpLinkRewriter,
   AmpList,
   AmpLiveList,
@@ -216,6 +216,7 @@ export {
   AmpReddit,
   AmpRiddleQuiz,
   AmpScript,
+  AmpScriptTag,
   AmpSelector,
   AmpShareTracking,
   AmpSidebar,
@@ -224,24 +225,25 @@ export {
   AmpSocialShare,
   AmpSoundcloud,
   AmpSpringboardPlayer,
+  AmpState,
   AmpStickyAd,
+  AmpStory,
   AmpStoryAutoAds,
   AmpStoryBookend,
   AmpStoryCtaLayer,
   AmpStoryGridLayer,
-  AmpStoryPageAttachment,
   AmpStoryPage,
-  AmpStory,
-  AmpSubscriptionsGoogle,
+  AmpStoryPageAttachment,
   AmpSubscriptions,
+  AmpSubscriptionsGoogle,
   AmpTimeago,
   AmpTruncateText,
   AmpTwitter,
   AmpUserLocation,
   AmpUserNotification,
+  AmpVideo,
   AmpVideoDocking,
   AmpVideoIframe,
-  AmpVideo,
   AmpVimeo,
   AmpVine,
   AmpViqeoPlayer,
@@ -250,7 +252,5 @@ export {
   AmpWebPush,
   AmpWistiaPlayer,
   AmpYotpo,
-  AmpYoutube,
-  AmpScriptTag,
-  AmpState 
+  AmpYoutube 
 }

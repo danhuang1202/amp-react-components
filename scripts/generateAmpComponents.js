@@ -2,8 +2,6 @@ const fs = require('fs-extra')
 const path = require('path')
 const puppeteer = require('puppeteer')
 const EXCLUDE_AMP_COMPONENTS = ['amp-bind', 'amp-animation']
-const EXCLUDE_MODULES = ['amp-bind']
-const CUSTOM_COMPONENTS = ['AmpScriptTag', 'AmpState']
 
 async function getAmpComponents() {
   const browser = await puppeteer.launch()
@@ -57,7 +55,10 @@ function writeReactComponent(name) {
   }
 }
 
-function generateIndex(names) {
+function generateIndex() {
+  const componentPath = path.join(__dirname, '../src/components/')
+  const names = fs.readdirSync(componentPath).map(filename => filename.split('.')[0])
+  
   return `${names.map(name => `import ${name} from './components/${name}'
 `).join('')}
 
@@ -67,8 +68,8 @@ export {${names.map(name => `
 `
 }
 
-function writeIndex(names) {
-  const content = generateIndex(names)
+function writeIndex() {
+  const content = generateIndex()
   const filename = path.resolve(__dirname, `../src/index.ts`)
   try {
     fs.writeFileSync(filename, content)
@@ -84,6 +85,5 @@ getAmpComponents().then((ampComponents) => {
     writeReactComponent(name)
   }
 
-  const modules = ampComponents.filter(name => EXCLUDE_MODULES.indexOf(name) === -1).map(name => getComponentName(name)).concat(CUSTOM_COMPONENTS)
-  writeIndex(modules)
+  writeIndex()
 })
