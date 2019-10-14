@@ -11,7 +11,7 @@ function AmpGist({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpGist 
+    <amp-gist
       class={className}
       {...props}
     />

@@ -11,7 +11,7 @@ function AmpAppBanner({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpAppBanner 
+    <amp-app-banner
       class={className}
       {...props}
     />

@@ -11,7 +11,7 @@ function AmpSocialShare({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpSocialShare 
+    <amp-social-share
       class={className}
       {...props}
     />

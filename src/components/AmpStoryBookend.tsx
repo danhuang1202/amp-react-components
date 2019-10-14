@@ -11,7 +11,7 @@ function AmpStoryBookend({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpStoryBookend 
+    <amp-story-bookend
       class={className}
       {...props}
     />

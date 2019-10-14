@@ -11,7 +11,7 @@ function AmpFacebookComments({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpFacebookComments 
+    <amp-facebook-comments
       class={className}
       {...props}
     />

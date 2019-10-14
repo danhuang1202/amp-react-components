@@ -11,7 +11,7 @@ function AmpNexxtvPlayer({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpNexxtvPlayer 
+    <amp-nexxtv-player
       class={className}
       {...props}
     />

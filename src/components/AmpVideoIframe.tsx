@@ -11,7 +11,7 @@ function AmpVideoIframe({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpVideoIframe 
+    <amp-video-iframe
       class={className}
       {...props}
     />

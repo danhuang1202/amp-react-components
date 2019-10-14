@@ -11,7 +11,7 @@ function AmpInstallServiceworker({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpInstallServiceworker 
+    <amp-install-serviceworker
       class={className}
       {...props}
     />

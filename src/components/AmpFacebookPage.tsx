@@ -11,7 +11,7 @@ function AmpFacebookPage({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpFacebookPage 
+    <amp-facebook-page
       class={className}
       {...props}
     />

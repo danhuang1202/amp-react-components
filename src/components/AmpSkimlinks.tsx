@@ -11,7 +11,7 @@ function AmpSkimlinks({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpSkimlinks 
+    <amp-skimlinks
       class={className}
       {...props}
     />

@@ -11,7 +11,7 @@ function AmpHulu({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpHulu 
+    <amp-hulu
       class={className}
       {...props}
     />

@@ -11,7 +11,7 @@ function AmpConsent({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpConsent 
+    <amp-consent
       class={className}
       {...props}
     />

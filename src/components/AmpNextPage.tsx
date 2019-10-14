@@ -11,7 +11,7 @@ function AmpNextPage({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpNextPage 
+    <amp-next-page
       class={className}
       {...props}
     />

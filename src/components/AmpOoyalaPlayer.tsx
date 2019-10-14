@@ -11,7 +11,7 @@ function AmpOoyalaPlayer({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpOoyalaPlayer 
+    <amp-ooyala-player
       class={className}
       {...props}
     />

@@ -11,7 +11,7 @@ function AmpReddit({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpReddit 
+    <amp-reddit
       class={className}
       {...props}
     />

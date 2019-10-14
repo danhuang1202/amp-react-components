@@ -11,7 +11,7 @@ function AmpAudio({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpAudio 
+    <amp-audio
       class={className}
       {...props}
     />

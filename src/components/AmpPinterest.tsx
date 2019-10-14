@@ -11,7 +11,7 @@ function AmpPinterest({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpPinterest 
+    <amp-pinterest
       class={className}
       {...props}
     />

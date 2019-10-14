@@ -11,7 +11,7 @@ function AmpVine({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpVine 
+    <amp-vine
       class={className}
       {...props}
     />

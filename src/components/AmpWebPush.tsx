@@ -11,7 +11,7 @@ function AmpWebPush({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpWebPush 
+    <amp-web-push
       class={className}
       {...props}
     />

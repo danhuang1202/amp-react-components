@@ -11,7 +11,7 @@ function AmpEmbedlyCard({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpEmbedlyCard 
+    <amp-embedly-card
       class={className}
       {...props}
     />

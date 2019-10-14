@@ -11,7 +11,7 @@ function AmpRiddleQuiz({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpRiddleQuiz 
+    <amp-riddle-quiz
       class={className}
       {...props}
     />

@@ -11,7 +11,7 @@ function AmpJwplayer({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpJwplayer 
+    <amp-jwplayer
       class={className}
       {...props}
     />

@@ -11,7 +11,7 @@ function AmpSpringboardPlayer({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpSpringboardPlayer 
+    <amp-springboard-player
       class={className}
       {...props}
     />

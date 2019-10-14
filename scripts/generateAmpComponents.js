@@ -16,11 +16,11 @@ async function getAmpComponents() {
   return components
 }
 
-function getComponentName(name){
-  return name.split('-').map(str => str.replace(/^\w/, letter => letter.toUpperCase())).join('')
+function getComponentName(tag){
+  return tag.split('-').map(str => str.replace(/^\w/, letter => letter.toUpperCase())).join('')
 }
 
-function generateReactComponent(name) {
+function generateReactComponent(tag, component) {
   return `import React, {ReactElement} from 'react'
 
 type Props = {
@@ -30,24 +30,25 @@ type Props = {
   props: object
 }
 
-function ${name}({
+function ${component}({
   className, ...props
 }: Props): ReactElement{
   return (
-    <${name} 
+    <${tag}
       class={className}
       {...props}
     />
   )
 }
 
-export default ${name}
+export default ${component}
 `
 }
 
-function writeReactComponent(name) {
-  const content = generateReactComponent(name)
-  const filename = path.resolve(__dirname, `../src/components/${name}.tsx`)
+function writeReactComponent(tag) {
+  const component = getComponentName(tag)
+  const content = generateReactComponent(tag, component)
+  const filename = path.resolve(__dirname, `../src/components/${component}.tsx`)
   try {
     fs.writeFileSync(filename, content)
   } catch(error) {
@@ -78,12 +79,30 @@ function writeIndex() {
   }
 }
 
-getAmpComponents().then((ampComponents) => {
-  const components = ampComponents.filter(name => EXCLUDE_AMP_COMPONENTS.indexOf(name) === -1).map(name => getComponentName(name))
+function generateTypeIndex(tags) {  
+  return `declare namespace JSX {
+  interface IntrinsicElements {${tags.map(name => `
+    '${name}': any;`).join('')}
+	}
+}`
+}
 
-  for (let name of components) {
+function writeTypeIndex(tags) {
+  const content = generateTypeIndex(tags)
+  const filename = path.resolve(__dirname, `../src/react.ext.d.ts`)
+  try {
+    fs.writeFileSync(filename, content)
+  } catch(error) {
+    console.error(`[writeIndex] write src/react.ext.d.ts failed: ${error}`)
+  }
+}
+
+
+getAmpComponents().then((components) => {
+  const filteredComponents = components.filter(tag => EXCLUDE_AMP_COMPONENTS.indexOf(tag) === -1)
+  for (let name of filteredComponents) {
     writeReactComponent(name)
   }
-
+  writeTypeIndex(filteredComponents)
   writeIndex()
 })

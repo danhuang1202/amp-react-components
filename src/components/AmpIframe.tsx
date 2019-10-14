@@ -11,7 +11,7 @@ function AmpIframe({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpIframe 
+    <amp-iframe
       class={className}
       {...props}
     />

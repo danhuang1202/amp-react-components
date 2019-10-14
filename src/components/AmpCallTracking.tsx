@@ -11,7 +11,7 @@ function AmpCallTracking({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpCallTracking 
+    <amp-call-tracking
       class={className}
       {...props}
     />

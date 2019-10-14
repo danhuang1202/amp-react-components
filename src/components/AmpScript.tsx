@@ -11,7 +11,7 @@ function AmpScript({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpScript 
+    <amp-script
       class={className}
       {...props}
     />

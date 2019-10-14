@@ -11,7 +11,7 @@ function AmpStory({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpStory 
+    <amp-story
       class={className}
       {...props}
     />

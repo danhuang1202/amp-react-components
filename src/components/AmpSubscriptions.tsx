@@ -11,7 +11,7 @@ function AmpSubscriptions({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpSubscriptions 
+    <amp-subscriptions
       class={className}
       {...props}
     />

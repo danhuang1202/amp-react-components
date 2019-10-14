@@ -11,7 +11,7 @@ function AmpLinkRewriter({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpLinkRewriter 
+    <amp-link-rewriter
       class={className}
       {...props}
     />

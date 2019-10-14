@@ -11,7 +11,7 @@ function AmpIzlesene({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpIzlesene 
+    <amp-izlesene
       class={className}
       {...props}
     />

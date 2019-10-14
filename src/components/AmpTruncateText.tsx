@@ -11,7 +11,7 @@ function AmpTruncateText({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpTruncateText 
+    <amp-truncate-text
       class={className}
       {...props}
     />

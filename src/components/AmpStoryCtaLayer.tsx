@@ -11,7 +11,7 @@ function AmpStoryCtaLayer({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpStoryCtaLayer 
+    <amp-story-cta-layer
       class={className}
       {...props}
     />

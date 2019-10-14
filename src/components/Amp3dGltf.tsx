@@ -11,7 +11,7 @@ function Amp3dGltf({
   className, ...props
 }: Props): ReactElement{
   return (
-    <Amp3dGltf 
+    <amp-3d-gltf
       class={className}
       {...props}
     />

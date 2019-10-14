@@ -11,7 +11,7 @@ function AmpOrientationObserver({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpOrientationObserver 
+    <amp-orientation-observer
       class={className}
       {...props}
     />

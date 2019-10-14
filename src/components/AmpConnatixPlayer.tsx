@@ -11,7 +11,7 @@ function AmpConnatixPlayer({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpConnatixPlayer 
+    <amp-connatix-player
       class={className}
       {...props}
     />

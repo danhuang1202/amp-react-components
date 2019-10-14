@@ -11,7 +11,7 @@ function AmpList({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpList 
+    <amp-list
       class={className}
       {...props}
     />

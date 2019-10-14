@@ -11,7 +11,7 @@ function AmpBysideContent({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpBysideContent 
+    <amp-byside-content
       class={className}
       {...props}
     />

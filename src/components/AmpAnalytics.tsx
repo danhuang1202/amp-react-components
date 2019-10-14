@@ -11,7 +11,7 @@ function AmpAnalytics({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpAnalytics 
+    <amp-analytics
       class={className}
       {...props}
     />

@@ -11,7 +11,7 @@ function AmpShareTracking({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpShareTracking 
+    <amp-share-tracking
       class={className}
       {...props}
     />

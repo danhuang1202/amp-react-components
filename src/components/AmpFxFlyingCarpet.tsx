@@ -11,7 +11,7 @@ function AmpFxFlyingCarpet({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpFxFlyingCarpet 
+    <amp-fx-flying-carpet
       class={className}
       {...props}
     />

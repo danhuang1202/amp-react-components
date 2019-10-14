@@ -11,7 +11,7 @@ function AmpGoogleVrviewImage({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpGoogleVrviewImage 
+    <amp-google-vrview-image
       class={className}
       {...props}
     />

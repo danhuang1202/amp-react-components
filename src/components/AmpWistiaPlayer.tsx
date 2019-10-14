@@ -11,7 +11,7 @@ function AmpWistiaPlayer({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpWistiaPlayer 
+    <amp-wistia-player
       class={className}
       {...props}
     />

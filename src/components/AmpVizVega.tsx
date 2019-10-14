@@ -11,7 +11,7 @@ function AmpVizVega({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpVizVega 
+    <amp-viz-vega
       class={className}
       {...props}
     />

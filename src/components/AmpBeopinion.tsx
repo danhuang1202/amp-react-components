@@ -11,7 +11,7 @@ function AmpBeopinion({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpBeopinion 
+    <amp-beopinion
       class={className}
       {...props}
     />

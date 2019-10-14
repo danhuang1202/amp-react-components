@@ -11,7 +11,7 @@ function AmpAutoAds({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpAutoAds 
+    <amp-auto-ads
       class={className}
       {...props}
     />

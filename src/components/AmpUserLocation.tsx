@@ -11,7 +11,7 @@ function AmpUserLocation({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpUserLocation 
+    <amp-user-location
       class={className}
       {...props}
     />

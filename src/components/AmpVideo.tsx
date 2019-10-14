@@ -11,7 +11,7 @@ function AmpVideo({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpVideo 
+    <amp-video
       class={className}
       {...props}
     />

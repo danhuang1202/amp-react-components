@@ -11,7 +11,7 @@ function AmpAd({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpAd 
+    <amp-ad
       class={className}
       {...props}
     />

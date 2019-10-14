@@ -11,7 +11,7 @@ function AmpRecaptchaInput({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpRecaptchaInput 
+    <amp-recaptcha-input
       class={className}
       {...props}
     />

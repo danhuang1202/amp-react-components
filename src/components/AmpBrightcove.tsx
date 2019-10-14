@@ -11,7 +11,7 @@ function AmpBrightcove({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpBrightcove 
+    <amp-brightcove
       class={className}
       {...props}
     />

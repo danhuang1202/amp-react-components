@@ -11,7 +11,7 @@ function AmpInputmask({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpInputmask 
+    <amp-inputmask
       class={className}
       {...props}
     />

@@ -11,7 +11,7 @@ function AmpMinuteMediaPlayer({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpMinuteMediaPlayer 
+    <amp-minute-media-player
       class={className}
       {...props}
     />

@@ -11,7 +11,7 @@ function AmpLightboxGallery({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpLightboxGallery 
+    <amp-lightbox-gallery
       class={className}
       {...props}
     />

@@ -11,7 +11,7 @@ function AmpFxCollection({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpFxCollection 
+    <amp-fx-collection
       class={className}
       {...props}
     />

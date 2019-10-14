@@ -11,7 +11,7 @@ function AmpAccessPoool({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpAccessPoool 
+    <amp-access-poool
       class={className}
       {...props}
     />

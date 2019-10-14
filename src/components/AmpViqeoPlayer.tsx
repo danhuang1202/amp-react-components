@@ -11,7 +11,7 @@ function AmpViqeoPlayer({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpViqeoPlayer 
+    <amp-viqeo-player
       class={className}
       {...props}
     />

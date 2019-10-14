@@ -11,7 +11,7 @@ function AmpAutocomplete({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpAutocomplete 
+    <amp-autocomplete
       class={className}
       {...props}
     />

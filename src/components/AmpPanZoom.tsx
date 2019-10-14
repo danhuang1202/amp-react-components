@@ -11,7 +11,7 @@ function AmpPanZoom({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpPanZoom 
+    <amp-pan-zoom
       class={className}
       {...props}
     />

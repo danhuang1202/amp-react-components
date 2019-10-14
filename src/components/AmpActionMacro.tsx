@@ -11,7 +11,7 @@ function AmpActionMacro({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpActionMacro 
+    <amp-action-macro
       class={className}
       {...props}
     />

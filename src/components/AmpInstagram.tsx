@@ -11,7 +11,7 @@ function AmpInstagram({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpInstagram 
+    <amp-instagram
       class={className}
       {...props}
     />

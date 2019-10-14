@@ -11,7 +11,7 @@ function AmpYotpo({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpYotpo 
+    <amp-yotpo
       class={className}
       {...props}
     />

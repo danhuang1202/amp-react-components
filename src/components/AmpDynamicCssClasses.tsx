@@ -11,7 +11,7 @@ function AmpDynamicCssClasses({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpDynamicCssClasses 
+    <amp-dynamic-css-classes
       class={className}
       {...props}
     />

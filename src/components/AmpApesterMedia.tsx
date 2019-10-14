@@ -11,7 +11,7 @@ function AmpApesterMedia({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpApesterMedia 
+    <amp-apester-media
       class={className}
       {...props}
     />

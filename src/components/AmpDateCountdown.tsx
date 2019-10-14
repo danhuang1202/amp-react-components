@@ -11,7 +11,7 @@ function AmpDateCountdown({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpDateCountdown 
+    <amp-date-countdown
       class={className}
       {...props}
     />

@@ -11,7 +11,7 @@ function AmpImageSlider({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpImageSlider 
+    <amp-image-slider
       class={className}
       {...props}
     />

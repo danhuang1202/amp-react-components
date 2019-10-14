@@ -11,7 +11,7 @@ function Amp3qPlayer({
   className, ...props
 }: Props): ReactElement{
   return (
-    <Amp3qPlayer 
+    <amp-3q-player
       class={className}
       {...props}
     />

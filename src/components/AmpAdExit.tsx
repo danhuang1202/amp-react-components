@@ -11,7 +11,7 @@ function AmpAdExit({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpAdExit 
+    <amp-ad-exit
       class={className}
       {...props}
     />

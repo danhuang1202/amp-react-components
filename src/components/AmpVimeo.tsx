@@ -11,7 +11,7 @@ function AmpVimeo({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpVimeo 
+    <amp-vimeo
       class={className}
       {...props}
     />

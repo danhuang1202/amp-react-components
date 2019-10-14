@@ -11,7 +11,7 @@ function AmpMegaphone({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpMegaphone 
+    <amp-megaphone
       class={className}
       {...props}
     />

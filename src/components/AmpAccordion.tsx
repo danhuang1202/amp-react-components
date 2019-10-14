@@ -11,7 +11,7 @@ function AmpAccordion({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpAccordion 
+    <amp-accordion
       class={className}
       {...props}
     />

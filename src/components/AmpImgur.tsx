@@ -11,7 +11,7 @@ function AmpImgur({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpImgur 
+    <amp-imgur
       class={className}
       {...props}
     />

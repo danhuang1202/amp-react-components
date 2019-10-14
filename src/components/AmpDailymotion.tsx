@@ -11,7 +11,7 @@ function AmpDailymotion({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpDailymotion 
+    <amp-dailymotion
       class={className}
       {...props}
     />

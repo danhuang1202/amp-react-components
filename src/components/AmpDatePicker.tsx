@@ -11,7 +11,7 @@ function AmpDatePicker({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpDatePicker 
+    <amp-date-picker
       class={className}
       {...props}
     />

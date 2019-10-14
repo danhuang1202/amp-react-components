@@ -11,7 +11,7 @@ function AmpBridPlayer({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpBridPlayer 
+    <amp-brid-player
       class={className}
       {...props}
     />

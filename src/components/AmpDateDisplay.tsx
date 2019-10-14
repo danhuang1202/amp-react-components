@@ -11,7 +11,7 @@ function AmpDateDisplay({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpDateDisplay 
+    <amp-date-display
       class={className}
       {...props}
     />

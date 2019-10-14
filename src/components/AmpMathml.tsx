@@ -11,7 +11,7 @@ function AmpMathml({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpMathml 
+    <amp-mathml
       class={className}
       {...props}
     />

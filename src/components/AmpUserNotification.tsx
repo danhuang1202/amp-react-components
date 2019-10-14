@@ -11,7 +11,7 @@ function AmpUserNotification({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpUserNotification 
+    <amp-user-notification
       class={className}
       {...props}
     />

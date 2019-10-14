@@ -11,7 +11,7 @@ function AmpGeo({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpGeo 
+    <amp-geo
       class={className}
       {...props}
     />

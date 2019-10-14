@@ -11,7 +11,7 @@ function AmpSidebar({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpSidebar 
+    <amp-sidebar
       class={className}
       {...props}
     />

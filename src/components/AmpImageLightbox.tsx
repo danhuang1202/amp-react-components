@@ -11,7 +11,7 @@ function AmpImageLightbox({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpImageLightbox 
+    <amp-image-lightbox
       class={className}
       {...props}
     />

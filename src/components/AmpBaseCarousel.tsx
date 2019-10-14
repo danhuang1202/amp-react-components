@@ -11,7 +11,7 @@ function AmpBaseCarousel({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpBaseCarousel 
+    <amp-base-carousel
       class={className}
       {...props}
     />

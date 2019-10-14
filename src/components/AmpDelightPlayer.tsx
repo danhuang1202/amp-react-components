@@ -11,7 +11,7 @@ function AmpDelightPlayer({
   className, ...props
 }: Props): ReactElement{
   return (
-    <AmpDelightPlayer 
+    <amp-delight-player
       class={className}
       {...props}
     />
