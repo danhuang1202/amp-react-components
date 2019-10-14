@@ -12,7 +12,7 @@ function AmpSubscriptionsGoogle({
 }: Props): ReactElement{
   return (
     <AmpSubscriptionsGoogle 
-      className={className}
+      class={className}
       {...props}
     />
   )

@@ -12,7 +12,7 @@ function AmpShareTracking({
 }: Props): ReactElement{
   return (
     <AmpShareTracking 
-      className={className}
+      class={className}
       {...props}
     />
   )

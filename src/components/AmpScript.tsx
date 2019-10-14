@@ -12,7 +12,7 @@ function AmpScript({
 }: Props): ReactElement{
   return (
     <AmpScript 
-      className={className}
+      class={className}
       {...props}
     />
   )

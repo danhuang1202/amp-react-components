@@ -12,7 +12,7 @@ function AmpList({
 }: Props): ReactElement{
   return (
     <AmpList 
-      className={className}
+      class={className}
       {...props}
     />
   )

@@ -12,7 +12,7 @@ function AmpJwplayer({
 }: Props): ReactElement{
   return (
     <AmpJwplayer 
-      className={className}
+      class={className}
       {...props}
     />
   )

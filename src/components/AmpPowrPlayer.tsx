@@ -12,7 +12,7 @@ function AmpPowrPlayer({
 }: Props): ReactElement{
   return (
     <AmpPowrPlayer 
-      className={className}
+      class={className}
       {...props}
     />
   )

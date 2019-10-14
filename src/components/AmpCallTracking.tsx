@@ -12,7 +12,7 @@ function AmpCallTracking({
 }: Props): ReactElement{
   return (
     <AmpCallTracking 
-      className={className}
+      class={className}
       {...props}
     />
   )

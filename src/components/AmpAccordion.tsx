@@ -12,7 +12,7 @@ function AmpAccordion({
 }: Props): ReactElement{
   return (
     <AmpAccordion 
-      className={className}
+      class={className}
       {...props}
     />
   )

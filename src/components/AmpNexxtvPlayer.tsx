@@ -12,7 +12,7 @@ function AmpNexxtvPlayer({
 }: Props): ReactElement{
   return (
     <AmpNexxtvPlayer 
-      className={className}
+      class={className}
       {...props}
     />
   )

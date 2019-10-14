@@ -12,7 +12,7 @@ function AmpInstagram({
 }: Props): ReactElement{
   return (
     <AmpInstagram 
-      className={className}
+      class={className}
       {...props}
     />
   )

@@ -12,7 +12,7 @@ function AmpSmartlinks({
 }: Props): ReactElement{
   return (
     <AmpSmartlinks 
-      className={className}
+      class={className}
       {...props}
     />
   )

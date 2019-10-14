@@ -12,7 +12,7 @@ function AmpCarousel({
 }: Props): ReactElement{
   return (
     <AmpCarousel 
-      className={className}
+      class={className}
       {...props}
     />
   )

@@ -12,7 +12,7 @@ function AmpMustache({
 }: Props): ReactElement{
   return (
     <AmpMustache 
-      className={className}
+      class={className}
       {...props}
     />
   )

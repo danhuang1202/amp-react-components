@@ -12,7 +12,7 @@ function AmpMinuteMediaPlayer({
 }: Props): ReactElement{
   return (
     <AmpMinuteMediaPlayer 
-      className={className}
+      class={className}
       {...props}
     />
   )

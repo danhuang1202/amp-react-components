@@ -12,7 +12,7 @@ function AmpYoutube({
 }: Props): ReactElement{
   return (
     <AmpYoutube 
-      className={className}
+      class={className}
       {...props}
     />
   )

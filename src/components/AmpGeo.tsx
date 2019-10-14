@@ -12,7 +12,7 @@ function AmpGeo({
 }: Props): ReactElement{
   return (
     <AmpGeo 
-      className={className}
+      class={className}
       {...props}
     />
   )

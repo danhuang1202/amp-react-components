@@ -12,7 +12,7 @@ function AmpWebPush({
 }: Props): ReactElement{
   return (
     <AmpWebPush 
-      className={className}
+      class={className}
       {...props}
     />
   )

@@ -12,7 +12,7 @@ function AmpSkimlinks({
 }: Props): ReactElement{
   return (
     <AmpSkimlinks 
-      className={className}
+      class={className}
       {...props}
     />
   )

@@ -12,7 +12,7 @@ function AmpYotpo({
 }: Props): ReactElement{
   return (
     <AmpYotpo 
-      className={className}
+      class={className}
       {...props}
     />
   )

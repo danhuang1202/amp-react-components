@@ -12,7 +12,7 @@ function AmpStickyAd({
 }: Props): ReactElement{
   return (
     <AmpStickyAd 
-      className={className}
+      class={className}
       {...props}
     />
   )

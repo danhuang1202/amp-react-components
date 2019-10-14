@@ -12,7 +12,7 @@ function AmpRecaptchaInput({
 }: Props): ReactElement{
   return (
     <AmpRecaptchaInput 
-      className={className}
+      class={className}
       {...props}
     />
   )

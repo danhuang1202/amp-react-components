@@ -12,7 +12,7 @@ function AmpBridPlayer({
 }: Props): ReactElement{
   return (
     <AmpBridPlayer 
-      className={className}
+      class={className}
       {...props}
     />
   )

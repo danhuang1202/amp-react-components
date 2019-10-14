@@ -12,7 +12,7 @@ function AmpStoryPageAttachment({
 }: Props): ReactElement{
   return (
     <AmpStoryPageAttachment 
-      className={className}
+      class={className}
       {...props}
     />
   )

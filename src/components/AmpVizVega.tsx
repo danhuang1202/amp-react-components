@@ -12,7 +12,7 @@ function AmpVizVega({
 }: Props): ReactElement{
   return (
     <AmpVizVega 
-      className={className}
+      class={className}
       {...props}
     />
   )

@@ -12,7 +12,7 @@ function AmpVine({
 }: Props): ReactElement{
   return (
     <AmpVine 
-      className={className}
+      class={className}
       {...props}
     />
   )

@@ -12,7 +12,7 @@ function AmpAnim({
 }: Props): ReactElement{
   return (
     <AmpAnim 
-      className={className}
+      class={className}
       {...props}
     />
   )

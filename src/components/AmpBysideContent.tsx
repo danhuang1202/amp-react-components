@@ -12,7 +12,7 @@ function AmpBysideContent({
 }: Props): ReactElement{
   return (
     <AmpBysideContent 
-      className={className}
+      class={className}
       {...props}
     />
   )

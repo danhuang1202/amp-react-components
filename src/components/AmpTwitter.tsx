@@ -12,7 +12,7 @@ function AmpTwitter({
 }: Props): ReactElement{
   return (
     <AmpTwitter 
-      className={className}
+      class={className}
       {...props}
     />
   )

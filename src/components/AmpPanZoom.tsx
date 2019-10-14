@@ -12,7 +12,7 @@ function AmpPanZoom({
 }: Props): ReactElement{
   return (
     <AmpPanZoom 
-      className={className}
+      class={className}
       {...props}
     />
   )

@@ -12,7 +12,7 @@ function AmpDailymotion({
 }: Props): ReactElement{
   return (
     <AmpDailymotion 
-      className={className}
+      class={className}
       {...props}
     />
   )

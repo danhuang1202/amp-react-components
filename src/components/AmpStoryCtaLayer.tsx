@@ -12,7 +12,7 @@ function AmpStoryCtaLayer({
 }: Props): ReactElement{
   return (
     <AmpStoryCtaLayer 
-      className={className}
+      class={className}
       {...props}
     />
   )

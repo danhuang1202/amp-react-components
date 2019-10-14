@@ -12,7 +12,7 @@ function AmpSidebar({
 }: Props): ReactElement{
   return (
     <AmpSidebar 
-      className={className}
+      class={className}
       {...props}
     />
   )

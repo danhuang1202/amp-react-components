@@ -12,7 +12,7 @@ function AmpEmbedlyCard({
 }: Props): ReactElement{
   return (
     <AmpEmbedlyCard 
-      className={className}
+      class={className}
       {...props}
     />
   )

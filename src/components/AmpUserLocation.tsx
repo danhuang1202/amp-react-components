@@ -12,7 +12,7 @@ function AmpUserLocation({
 }: Props): ReactElement{
   return (
     <AmpUserLocation 
-      className={className}
+      class={className}
       {...props}
     />
   )

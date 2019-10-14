@@ -12,7 +12,7 @@ function AmpAddthis({
 }: Props): ReactElement{
   return (
     <AmpAddthis 
-      className={className}
+      class={className}
       {...props}
     />
   )

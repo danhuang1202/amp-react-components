@@ -12,7 +12,7 @@ function AmpGist({
 }: Props): ReactElement{
   return (
     <AmpGist 
-      className={className}
+      class={className}
       {...props}
     />
   )

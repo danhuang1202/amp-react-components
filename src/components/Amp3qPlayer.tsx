@@ -12,7 +12,7 @@ function Amp3qPlayer({
 }: Props): ReactElement{
   return (
     <Amp3qPlayer 
-      className={className}
+      class={className}
       {...props}
     />
   )

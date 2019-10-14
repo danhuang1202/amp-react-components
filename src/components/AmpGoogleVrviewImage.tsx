@@ -12,7 +12,7 @@ function AmpGoogleVrviewImage({
 }: Props): ReactElement{
   return (
     <AmpGoogleVrviewImage 
-      className={className}
+      class={className}
       {...props}
     />
   )

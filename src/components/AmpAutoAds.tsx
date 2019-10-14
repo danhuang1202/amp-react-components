@@ -12,7 +12,7 @@ function AmpAutoAds({
 }: Props): ReactElement{
   return (
     <AmpAutoAds 
-      className={className}
+      class={className}
       {...props}
     />
   )

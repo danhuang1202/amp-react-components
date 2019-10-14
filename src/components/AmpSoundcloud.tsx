@@ -12,7 +12,7 @@ function AmpSoundcloud({
 }: Props): ReactElement{
   return (
     <AmpSoundcloud 
-      className={className}
+      class={className}
       {...props}
     />
   )

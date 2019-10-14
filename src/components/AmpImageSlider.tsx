@@ -12,7 +12,7 @@ function AmpImageSlider({
 }: Props): ReactElement{
   return (
     <AmpImageSlider 
-      className={className}
+      class={className}
       {...props}
     />
   )

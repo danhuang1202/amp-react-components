@@ -12,7 +12,7 @@ function AmpFacebook({
 }: Props): ReactElement{
   return (
     <AmpFacebook 
-      className={className}
+      class={className}
       {...props}
     />
   )

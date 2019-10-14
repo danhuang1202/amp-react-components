@@ -12,7 +12,7 @@ function AmpInstallServiceworker({
 }: Props): ReactElement{
   return (
     <AmpInstallServiceworker 
-      className={className}
+      class={className}
       {...props}
     />
   )

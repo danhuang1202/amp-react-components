@@ -12,7 +12,7 @@ function AmpImaVideo({
 }: Props): ReactElement{
   return (
     <AmpImaVideo 
-      className={className}
+      class={className}
       {...props}
     />
   )

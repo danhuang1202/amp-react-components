@@ -12,7 +12,7 @@ function AmpLightbox({
 }: Props): ReactElement{
   return (
     <AmpLightbox 
-      className={className}
+      class={className}
       {...props}
     />
   )

@@ -12,7 +12,7 @@ function AmpViqeoPlayer({
 }: Props): ReactElement{
   return (
     <AmpViqeoPlayer 
-      className={className}
+      class={className}
       {...props}
     />
   )

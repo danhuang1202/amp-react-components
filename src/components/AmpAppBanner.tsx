@@ -12,7 +12,7 @@ function AmpAppBanner({
 }: Props): ReactElement{
   return (
     <AmpAppBanner 
-      className={className}
+      class={className}
       {...props}
     />
   )

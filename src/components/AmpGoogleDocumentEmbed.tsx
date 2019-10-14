@@ -12,7 +12,7 @@ function AmpGoogleDocumentEmbed({
 }: Props): ReactElement{
   return (
     <AmpGoogleDocumentEmbed 
-      className={className}
+      class={className}
       {...props}
     />
   )

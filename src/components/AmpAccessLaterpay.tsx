@@ -12,7 +12,7 @@ function AmpAccessLaterpay({
 }: Props): ReactElement{
   return (
     <AmpAccessLaterpay 
-      className={className}
+      class={className}
       {...props}
     />
   )

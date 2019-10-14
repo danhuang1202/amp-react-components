@@ -12,7 +12,7 @@ function AmpFitText({
 }: Props): ReactElement{
   return (
     <AmpFitText 
-      className={className}
+      class={className}
       {...props}
     />
   )

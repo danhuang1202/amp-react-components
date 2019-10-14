@@ -12,7 +12,7 @@ function AmpAutocomplete({
 }: Props): ReactElement{
   return (
     <AmpAutocomplete 
-      className={className}
+      class={className}
       {...props}
     />
   )

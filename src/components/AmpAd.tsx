@@ -12,7 +12,7 @@ function AmpAd({
 }: Props): ReactElement{
   return (
     <AmpAd 
-      className={className}
+      class={className}
       {...props}
     />
   )

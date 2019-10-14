@@ -12,7 +12,7 @@ function AmpStory({
 }: Props): ReactElement{
   return (
     <AmpStory 
-      className={className}
+      class={className}
       {...props}
     />
   )

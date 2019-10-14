@@ -12,7 +12,7 @@ function AmpVk({
 }: Props): ReactElement{
   return (
     <AmpVk 
-      className={className}
+      class={className}
       {...props}
     />
   )

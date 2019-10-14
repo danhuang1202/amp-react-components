@@ -12,7 +12,7 @@ function AmpTruncateText({
 }: Props): ReactElement{
   return (
     <AmpTruncateText 
-      className={className}
+      class={className}
       {...props}
     />
   )

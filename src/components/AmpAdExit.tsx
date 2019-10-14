@@ -12,7 +12,7 @@ function AmpAdExit({
 }: Props): ReactElement{
   return (
     <AmpAdExit 
-      className={className}
+      class={className}
       {...props}
     />
   )

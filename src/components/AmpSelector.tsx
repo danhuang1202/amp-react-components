@@ -12,7 +12,7 @@ function AmpSelector({
 }: Props): ReactElement{
   return (
     <AmpSelector 
-      className={className}
+      class={className}
       {...props}
     />
   )

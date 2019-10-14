@@ -12,7 +12,7 @@ function AmpLiveList({
 }: Props): ReactElement{
   return (
     <AmpLiveList 
-      className={className}
+      class={className}
       {...props}
     />
   )

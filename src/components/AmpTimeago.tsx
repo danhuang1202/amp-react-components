@@ -12,7 +12,7 @@ function AmpTimeago({
 }: Props): ReactElement{
   return (
     <AmpTimeago 
-      className={className}
+      class={className}
       {...props}
     />
   )

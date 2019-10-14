@@ -12,7 +12,7 @@ function AmpReachPlayer({
 }: Props): ReactElement{
   return (
     <AmpReachPlayer 
-      className={className}
+      class={className}
       {...props}
     />
   )

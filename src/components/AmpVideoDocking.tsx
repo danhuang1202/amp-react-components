@@ -12,7 +12,7 @@ function AmpVideoDocking({
 }: Props): ReactElement{
   return (
     <AmpVideoDocking 
-      className={className}
+      class={className}
       {...props}
     />
   )

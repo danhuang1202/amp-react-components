@@ -12,7 +12,7 @@ function AmpFxCollection({
 }: Props): ReactElement{
   return (
     <AmpFxCollection 
-      className={className}
+      class={className}
       {...props}
     />
   )

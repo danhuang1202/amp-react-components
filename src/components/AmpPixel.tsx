@@ -12,7 +12,7 @@ function AmpPixel({
 }: Props): ReactElement{
   return (
     <AmpPixel 
-      className={className}
+      class={className}
       {...props}
     />
   )

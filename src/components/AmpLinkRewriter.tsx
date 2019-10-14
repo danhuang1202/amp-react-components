@@ -12,7 +12,7 @@ function AmpLinkRewriter({
 }: Props): ReactElement{
   return (
     <AmpLinkRewriter 
-      className={className}
+      class={className}
       {...props}
     />
   )

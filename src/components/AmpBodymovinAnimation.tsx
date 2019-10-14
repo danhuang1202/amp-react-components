@@ -12,7 +12,7 @@ function AmpBodymovinAnimation({
 }: Props): ReactElement{
   return (
     <AmpBodymovinAnimation 
-      className={className}
+      class={className}
       {...props}
     />
   )

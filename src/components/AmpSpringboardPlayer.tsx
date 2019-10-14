@@ -12,7 +12,7 @@ function AmpSpringboardPlayer({
 }: Props): ReactElement{
   return (
     <AmpSpringboardPlayer 
-      className={className}
+      class={className}
       {...props}
     />
   )

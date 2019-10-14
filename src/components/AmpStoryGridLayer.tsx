@@ -12,7 +12,7 @@ function AmpStoryGridLayer({
 }: Props): ReactElement{
   return (
     <AmpStoryGridLayer 
-      className={className}
+      class={className}
       {...props}
     />
   )

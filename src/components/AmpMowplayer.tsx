@@ -12,7 +12,7 @@ function AmpMowplayer({
 }: Props): ReactElement{
   return (
     <AmpMowplayer 
-      className={className}
+      class={className}
       {...props}
     />
   )

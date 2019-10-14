@@ -12,7 +12,7 @@ function AmpFont({
 }: Props): ReactElement{
   return (
     <AmpFont 
-      className={className}
+      class={className}
       {...props}
     />
   )

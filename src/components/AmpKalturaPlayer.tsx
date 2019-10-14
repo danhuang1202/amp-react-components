@@ -12,7 +12,7 @@ function AmpKalturaPlayer({
 }: Props): ReactElement{
   return (
     <AmpKalturaPlayer 
-      className={className}
+      class={className}
       {...props}
     />
   )

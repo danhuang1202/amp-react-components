@@ -12,7 +12,7 @@ function AmpLightboxGallery({
 }: Props): ReactElement{
   return (
     <AmpLightboxGallery 
-      className={className}
+      class={className}
       {...props}
     />
   )

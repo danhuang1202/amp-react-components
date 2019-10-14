@@ -12,7 +12,7 @@ function AmpSocialShare({
 }: Props): ReactElement{
   return (
     <AmpSocialShare 
-      className={className}
+      class={className}
       {...props}
     />
   )

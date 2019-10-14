@@ -12,7 +12,7 @@ function AmpRiddleQuiz({
 }: Props): ReactElement{
   return (
     <AmpRiddleQuiz 
-      className={className}
+      class={className}
       {...props}
     />
   )

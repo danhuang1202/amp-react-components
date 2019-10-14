@@ -12,7 +12,7 @@ function AmpGfycat({
 }: Props): ReactElement{
   return (
     <AmpGfycat 
-      className={className}
+      class={className}
       {...props}
     />
   )

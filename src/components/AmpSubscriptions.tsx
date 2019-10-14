@@ -12,7 +12,7 @@ function AmpSubscriptions({
 }: Props): ReactElement{
   return (
     <AmpSubscriptions 
-      className={className}
+      class={className}
       {...props}
     />
   )

@@ -12,7 +12,7 @@ function AmpPlaybuzz({
 }: Props): ReactElement{
   return (
     <AmpPlaybuzz 
-      className={className}
+      class={className}
       {...props}
     />
   )

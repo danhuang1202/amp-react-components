@@ -12,7 +12,7 @@ function AmpHulu({
 }: Props): ReactElement{
   return (
     <AmpHulu 
-      className={className}
+      class={className}
       {...props}
     />
   )

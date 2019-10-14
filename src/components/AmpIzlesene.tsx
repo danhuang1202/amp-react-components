@@ -12,7 +12,7 @@ function AmpIzlesene({
 }: Props): ReactElement{
   return (
     <AmpIzlesene 
-      className={className}
+      class={className}
       {...props}
     />
   )

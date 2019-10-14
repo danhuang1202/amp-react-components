@@ -12,7 +12,7 @@ function AmpImg({
 }: Props): ReactElement{
   return (
     <AmpImg 
-      className={className}
+      class={className}
       {...props}
     />
   )

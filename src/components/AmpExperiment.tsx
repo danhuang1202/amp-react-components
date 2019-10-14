@@ -12,7 +12,7 @@ function AmpExperiment({
 }: Props): ReactElement{
   return (
     <AmpExperiment 
-      className={className}
+      class={className}
       {...props}
     />
   )

@@ -37,7 +37,7 @@ function ${name}({
 }: Props): ReactElement{
   return (
     <${name} 
-      className={className}
+      class={className}
       {...props}
     />
   )

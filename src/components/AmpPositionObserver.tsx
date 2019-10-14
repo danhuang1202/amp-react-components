@@ -12,7 +12,7 @@ function AmpPositionObserver({
 }: Props): ReactElement{
   return (
     <AmpPositionObserver 
-      className={className}
+      class={className}
       {...props}
     />
   )

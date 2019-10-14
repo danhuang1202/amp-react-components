@@ -12,7 +12,7 @@ function AmpReddit({
 }: Props): ReactElement{
   return (
     <AmpReddit 
-      className={className}
+      class={className}
       {...props}
     />
   )

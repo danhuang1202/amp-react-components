@@ -12,7 +12,7 @@ function AmpWistiaPlayer({
 }: Props): ReactElement{
   return (
     <AmpWistiaPlayer 
-      className={className}
+      class={className}
       {...props}
     />
   )

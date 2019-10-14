@@ -12,7 +12,7 @@ function AmpForm({
 }: Props): ReactElement{
   return (
     <AmpForm 
-      className={className}
+      class={className}
       {...props}
     />
   )
