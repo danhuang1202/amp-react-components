@@ -1,3 +1,10 @@
+## 1.2.0 (2019-10-14)
+
+* ci: update rollup condif ([e41bcae](https://github.com/danhuang1202/amp-react-components/commit/e41bcae))
+* feat: saperate components directory ([4d2aba6](https://github.com/danhuang1202/amp-react-components/commit/4d2aba6))
+* docs: update github action link ([5c9ce76](https://github.com/danhuang1202/amp-react-components/commit/5c9ce76))
+* docs: update readme heading ([3f07e33](https://github.com/danhuang1202/amp-react-components/commit/3f07e33))
+
 ## 1.1.0 (2019-10-14)
 
 * feat: update amp component name to keba case and generate react-ext.d.ts ([5447e0f](https://github.com/danhuang1202/amp-react-components/commit/5447e0f))
