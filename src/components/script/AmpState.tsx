@@ -1,5 +1,5 @@
 import React, { ReactElement } from 'react'
-import AmpScriptTag from './AmpScriptTag'
+import ComponentScript from './ComponentScript'
 
 type Props = {
   /** id for amp-state component */
@@ -9,7 +9,7 @@ type Props = {
 }
 
 function AmpState({ id, state }: Props): ReactElement {
-  return <AmpScriptTag tag="amp-state" attribute={{ id }} data={state} />
+  return <ComponentScript tag="amp-state" attribute={{ id }} data={state} />
 }
 
 export default AmpState

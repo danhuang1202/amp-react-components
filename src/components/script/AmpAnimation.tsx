@@ -1,5 +1,5 @@
 import React, { ReactElement } from 'react'
-import AmpScriptTag from './AmpScriptTag'
+import ComponentScript from './ComponentScript'
 
 type Props = {
   /** id for amp-animation component */
@@ -10,7 +10,7 @@ type Props = {
 
 function AmpAnimation({ id, animation }: Props): ReactElement {
   return (
-    <AmpScriptTag
+    <ComponentScript
       tag="amp-animation"
       attribute={{
         id,

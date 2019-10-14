@@ -32,7 +32,7 @@ const entries = [
 ]
 
 const codegenPath = path.join(__dirname, '../src/components/codegen/')
-fs.readdirSync(componentPath).forEach(filename => {
+fs.readdirSync(codegenPath).forEach(filename => {
   entries.push({
     input: `src/components/codegen/${filename}`,
     output: [
