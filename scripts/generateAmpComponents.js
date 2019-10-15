@@ -59,11 +59,11 @@ function writeReactComponent(tag) {
 function generateIndex() {
   const viewPath = path.join(__dirname, '../src/components/view')
   const viewFilenames = fs.readdirSync(viewPath).map(filename => filename.split('.')[0])
-  const utilPath = path.join(__dirname, '../src/components/script')
+  const utilPath = path.join(__dirname, '../src/components/util')
   const utilFilenames = fs.readdirSync(utilPath).map(filename => filename.split('.')[0])
   
   return `${viewFilenames.map(name => `import ${name} from './components/view/${name}'
-`).join('')}${utilFilenames.map(name => `import ${name} from './components/script/${name}'
+`).join('')}${utilFilenames.map(name => `import ${name} from './components/util/${name}'
 `).join('')}
 
 export {${viewFilenames.map(name => `
