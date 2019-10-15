@@ -1,6 +1,6 @@
 {
   "name": "amp-react-components",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Render AMP components with React",
   "main": "lib/index.js",
   "module": "es/index.js",

@@ -1,3 +1,8 @@
+## 1.4.0 (2019-10-15)
+
+* fix: update import path of AmpMustache ([4991c29](https://github.com/danhuang1202/amp-react-components/commit/4991c29))
+* feat: update amp-mustache ([ce6bdd2](https://github.com/danhuang1202/amp-react-components/commit/ce6bdd2))
+
 ## 1.3.0 (2019-10-15)
 
 * fix: corrent import path ([7e9e0bd](https://github.com/danhuang1202/amp-react-components/commit/7e9e0bd))
