@@ -71,7 +71,6 @@ declare namespace JSX {
     'amp-megaphone': any;
     'amp-minute-media-player': any;
     'amp-mowplayer': any;
-    'amp-mustache': any;
     'amp-next-page': any;
     'amp-nexxtv-player': any;
     'amp-o2-player': any;

@@ -69,7 +69,6 @@ import AmpMathml from './components/view/AmpMathml'
 import AmpMegaphone from './components/view/AmpMegaphone'
 import AmpMinuteMediaPlayer from './components/view/AmpMinuteMediaPlayer'
 import AmpMowplayer from './components/view/AmpMowplayer'
-import AmpMustache from './components/view/AmpMustache'
 import AmpNextPage from './components/view/AmpNextPage'
 import AmpNexxtvPlayer from './components/view/AmpNexxtvPlayer'
 import AmpO2Player from './components/view/AmpO2Player'
@@ -122,6 +121,7 @@ import AmpWistiaPlayer from './components/view/AmpWistiaPlayer'
 import AmpYotpo from './components/view/AmpYotpo'
 import AmpYoutube from './components/view/AmpYoutube'
 import AmpAnimation from './components/util/AmpAnimation'
+import AmpMustache from './components/util/AmpMustache'
 import AmpState from './components/util/AmpState'
 import ComponentScript from './components/util/ComponentScript'
 
@@ -198,7 +198,6 @@ export {
   AmpMegaphone,
   AmpMinuteMediaPlayer,
   AmpMowplayer,
-  AmpMustache,
   AmpNextPage,
   AmpNexxtvPlayer,
   AmpO2Player,
@@ -251,6 +250,7 @@ export {
   AmpYotpo,
   AmpYoutube,
   AmpAnimation,
+  AmpMustache,
   AmpState,
   ComponentScript 
 }
