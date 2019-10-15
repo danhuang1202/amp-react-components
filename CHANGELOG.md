@@ -1,3 +1,9 @@
+## 1.3.0 (2019-10-15)
+
+* fix: corrent import path ([7e9e0bd](https://github.com/danhuang1202/amp-react-components/commit/7e9e0bd))
+* feat: update directory name ([3423917](https://github.com/danhuang1202/amp-react-components/commit/3423917))
+* docs: update readme ([cf8e9a4](https://github.com/danhuang1202/amp-react-components/commit/cf8e9a4))
+
 ## 1.2.0 (2019-10-14)
 
 * ci: update rollup condif ([e41bcae](https://github.com/danhuang1202/amp-react-components/commit/e41bcae))
