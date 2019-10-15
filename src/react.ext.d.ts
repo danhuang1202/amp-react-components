@@ -4,7 +4,6 @@ declare namespace JSX {
     'amp-3q-player': any;
     'amp-access-laterpay': any;
     'amp-access-poool': any;
-    'amp-access': any;
     'amp-accordion': any;
     'amp-action-macro': any;
     'amp-ad-exit': any;

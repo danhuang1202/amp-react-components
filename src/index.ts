@@ -1,6 +1,5 @@
 import Amp3dGltf from './components/view/Amp3dGltf'
 import Amp3qPlayer from './components/view/Amp3qPlayer'
-import AmpAccess from './components/view/AmpAccess'
 import AmpAccessLaterpay from './components/view/AmpAccessLaterpay'
 import AmpAccessPoool from './components/view/AmpAccessPoool'
 import AmpAccordion from './components/view/AmpAccordion'
@@ -131,7 +130,6 @@ import Script from './components/util/Script'
 export {
   Amp3dGltf,
   Amp3qPlayer,
-  AmpAccess,
   AmpAccessLaterpay,
   AmpAccessPoool,
   AmpAccordion,
