@@ -120,10 +120,12 @@ import AmpWebPush from './components/view/AmpWebPush'
 import AmpWistiaPlayer from './components/view/AmpWistiaPlayer'
 import AmpYotpo from './components/view/AmpYotpo'
 import AmpYoutube from './components/view/AmpYoutube'
+import AmpAccess from './components/util/AmpAccess'
 import AmpAnimation from './components/util/AmpAnimation'
 import AmpMustache from './components/util/AmpMustache'
 import AmpState from './components/util/AmpState'
 import ComponentScript from './components/util/ComponentScript'
+import Script from './components/util/Script'
 
 
 export {
@@ -249,8 +251,10 @@ export {
   AmpWistiaPlayer,
   AmpYotpo,
   AmpYoutube,
+  AmpAccess,
   AmpAnimation,
   AmpMustache,
   AmpState,
-  ComponentScript 
+  ComponentScript,
+  Script 
 }
