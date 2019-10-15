@@ -1,3 +1,8 @@
+## 1.5.0 (2019-10-15)
+
+* fix: remove amp-access from view ([9269fba](https://github.com/danhuang1202/amp-react-components/commit/9269fba))
+* feat: move AmpAccess from view to util ([606db40](https://github.com/danhuang1202/amp-react-components/commit/606db40))
+
 ## 1.4.0 (2019-10-15)
 
 * fix: update import path of AmpMustache ([4991c29](https://github.com/danhuang1202/amp-react-components/commit/4991c29))
