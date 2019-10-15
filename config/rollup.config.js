@@ -31,10 +31,10 @@ const entries = [
   }
 ]
 
-const codegenPath = path.join(__dirname, '../src/components/codegen/')
-fs.readdirSync(codegenPath).forEach(filename => {
+const viewPath = path.join(__dirname, '../src/components/view/')
+fs.readdirSync(viewPath).forEach(filename => {
   entries.push({
-    input: `src/components/codegen/${filename}`,
+    input: `src/components/view/${filename}`,
     output: [
       {
         dir: `lib/components`,
@@ -48,10 +48,10 @@ fs.readdirSync(codegenPath).forEach(filename => {
   })
 })
 
-const scriptPath = path.join(__dirname, '../src/components/script/')
-fs.readdirSync(scriptPath).forEach(filename => {
+const utilPath = path.join(__dirname, '../src/components/util/')
+fs.readdirSync(utilPath).forEach(filename => {
   entries.push({
-    input: `src/components/script/${filename}`,
+    input: `src/components/util/${filename}`,
     output: [
       {
         dir: `lib/components`,
