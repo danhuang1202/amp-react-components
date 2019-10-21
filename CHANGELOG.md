@@ -1,3 +1,7 @@
+## <small>1.5.2 (2019-10-21)</small>
+
+* fix: add utils/index.ts ([836c5b2](https://github.com/danhuang1202/amp-react-components/commit/836c5b2))
+
 ## <small>1.5.1 (2019-10-21)</small>
 
 * fix: add ampSetState util function ([22712cd](https://github.com/danhuang1202/amp-react-components/commit/22712cd))
