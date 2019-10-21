@@ -9,7 +9,13 @@ type Props = {
 }
 
 function AmpState({ id, state }: Props): ReactElement {
-  return <ComponentScript tag="amp-state" attribute={{ id }} data={state} />
+  const script = React.createElement('script', {
+    type: 'application/json',
+    dangerouslySetInnerHTML: {
+      __html: JSON.stringify(state)
+    }
+  })
+  return React.createElement('amp-state', { id }, script)
 }
 
 export default AmpState

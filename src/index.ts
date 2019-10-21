@@ -123,7 +123,6 @@ import AmpAccess from './components/util/AmpAccess'
 import AmpAnimation from './components/util/AmpAnimation'
 import AmpMustache from './components/util/AmpMustache'
 import AmpState from './components/util/AmpState'
-import ComponentScript from './components/util/ComponentScript'
 import Script from './components/util/Script'
 
 
@@ -253,6 +252,5 @@ export {
   AmpAnimation,
   AmpMustache,
   AmpState,
-  ComponentScript,
   Script 
 }

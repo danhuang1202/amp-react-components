@@ -9,16 +9,16 @@ type Props = {
 }
 
 function AmpAnimation({ id, animation }: Props): ReactElement {
-  return (
-    <ComponentScript
-      tag="amp-animation"
-      attribute={{
-        id,
-        layout: 'nodisplay'
-      }}
-      data={animation}
-    />
-  )
+  const script = React.createElement('script', {
+    type: 'application/json',
+    dangerouslySetInnerHTML: {
+      __html: JSON.stringify(animation)
+    }
+  })
+  return React.createElement('amp-animation', {
+    id,
+    layout: 'nodisplay'
+  }, script)
 }
 
 export default AmpAnimation
