@@ -1,3 +1,7 @@
+## <small>1.5.1 (2019-10-21)</small>
+
+* fix: add ampSetState util function ([22712cd](https://github.com/danhuang1202/amp-react-components/commit/22712cd))
+
 ## 1.5.0 (2019-10-15)
 
 * fix: remove amp-access from view ([9269fba](https://github.com/danhuang1202/amp-react-components/commit/9269fba))
