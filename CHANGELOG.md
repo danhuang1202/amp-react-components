@@ -1,3 +1,7 @@
+## <small>1.5.3 (2019-10-21)</small>
+
+* fix: update AmpMustache ([71e603c](https://github.com/danhuang1202/amp-react-components/commit/71e603c))
+
 ## <small>1.5.2 (2019-10-21)</small>
 
 * fix: add utils/index.ts ([836c5b2](https://github.com/danhuang1202/amp-react-components/commit/836c5b2))
