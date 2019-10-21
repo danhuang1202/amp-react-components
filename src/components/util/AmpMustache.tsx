@@ -3,11 +3,11 @@ import React, { ReactElement } from 'react'
 type Props = {
   /** id for amp-state component */
   id?: string
-  /** React children node. */
-  children?: object
+  /** template string. */
+  template: string
 }
 
-function AmpMustache({ id, children }: Props): ReactElement {
+function AmpMustache({ id, template }: Props): ReactElement {
   const props = {
     type: 'amp-mustache'
   }
@@ -16,7 +16,12 @@ function AmpMustache({ id, children }: Props): ReactElement {
     props[id] = id
   }
 
-  return React.createElement('template', props, children)
+  return React.createElement('template', {
+    ...props, 
+    dangerouslySetInnerHTML: {
+      __html: template
+    }
+  })
 }
 
 export default AmpMustache
