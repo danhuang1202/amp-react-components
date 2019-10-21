@@ -107,6 +107,7 @@ function Compoment({...}) {
 ```js
 import { AmpImg, AmpState } from 'amp-react-components'
 
+
 function Compoment({...}) {
   const id = "myAnimals"
   const state = {
@@ -130,6 +131,24 @@ function Compoment({...}) {
       <AmpImg width="300" height="200" src="/img/dog.jpg" data-amp-bind-src="myAnimals[currentAnimal].imageUrl" />
       <button on="tap:AMP.setState({currentAnimal: 'cat'})">Set to Cat</button>
     </>
+  )
+}
+```
+
+- AMP.setState
+```js
+import { ampSetState } from 'amp-react-components/utils'
+
+function Button(){
+  const state = {
+    foo: 'bar'
+  }
+  return (
+    <button 
+      on=`tap:${ampSetState(state)}`
+    >
+      click me
+    </button>
   )
 }
 ```

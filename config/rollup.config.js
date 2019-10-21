@@ -31,8 +31,8 @@ const entries = [
   }
 ]
 
-const viewPath = path.join(__dirname, '../src/components/view/')
-fs.readdirSync(viewPath).forEach(filename => {
+const componentViewPath = path.join(__dirname, '../src/components/view/')
+fs.readdirSync(componentViewPath).forEach(filename => {
   entries.push({
     input: `src/components/view/${filename}`,
     output: [
@@ -48,8 +48,8 @@ fs.readdirSync(viewPath).forEach(filename => {
   })
 })
 
-const utilPath = path.join(__dirname, '../src/components/util/')
-fs.readdirSync(utilPath).forEach(filename => {
+const componentUtilPath = path.join(__dirname, '../src/components/util/')
+fs.readdirSync(componentUtilPath).forEach(filename => {
   entries.push({
     input: `src/components/util/${filename}`,
     output: [
@@ -59,6 +59,23 @@ fs.readdirSync(utilPath).forEach(filename => {
       },
       {
         dir: `es/components`,
+        format: 'es'
+      }
+    ]
+  })
+})
+
+const utilPath = path.join(__dirname, '../src/utils/')
+fs.readdirSync(utilPath).forEach(filename => {
+  entries.push({
+    input: `src/utils/${filename}`,
+    output: [
+      {
+        dir: `lib/utils`,
+        format: 'cjs'
+      },
+      {
+        dir: `es/utils`,
         format: 'es'
       }
     ]
