@@ -65,21 +65,18 @@ fs.readdirSync(componentUtilPath).forEach(filename => {
   })
 })
 
-const utilPath = path.join(__dirname, '../src/utils/')
-fs.readdirSync(utilPath).forEach(filename => {
-  entries.push({
-    input: `src/utils/${filename}`,
-    output: [
-      {
-        dir: `lib/utils`,
-        format: 'cjs'
-      },
-      {
-        dir: `es/utils`,
-        format: 'es'
-      }
-    ]
-  })
+entries.push({
+  input: `src/utils/index.ts`,
+  output: [
+    {
+      dir: `lib/utils`,
+      format: 'cjs'
+    },
+    {
+      dir: `es/utils`,
+      format: 'es'
+    }
+  ]
 })
 
 const options = entries.map(entry => {
