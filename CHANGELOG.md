@@ -1,3 +1,8 @@
+## <small>1.5.4 (2019-10-24)</small>
+
+* fix: remove ComponentScript ([44729a9](https://github.com/danhuang1202/amp-react-components/commit/44729a9))
+* fix: remove import of ComponentScript ([7b5dbc2](https://github.com/danhuang1202/amp-react-components/commit/7b5dbc2))
+
 ## <small>1.5.3 (2019-10-21)</small>
 
 * fix: update AmpMustache ([71e603c](https://github.com/danhuang1202/amp-react-components/commit/71e603c))
