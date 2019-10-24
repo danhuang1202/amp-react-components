@@ -1,5 +1,4 @@
 import React, { ReactElement } from 'react'
-import ComponentScript from './ComponentScript'
 
 type Props = {
   /** id for amp-state component */
