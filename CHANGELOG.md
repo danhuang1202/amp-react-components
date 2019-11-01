@@ -1,3 +1,8 @@
+## <small>1.5.5 (2019-11-01)</small>
+
+* fix: move amp-analytics from view to utils ([0247a85](https://github.com/danhuang1202/amp-react-components/commit/0247a85))
+* fix: update index.js for AmpAnalytics ([9ccc404](https://github.com/danhuang1202/amp-react-components/commit/9ccc404))
+
 ## <small>1.5.4 (2019-10-24)</small>
 
 * fix: remove ComponentScript ([44729a9](https://github.com/danhuang1202/amp-react-components/commit/44729a9))
