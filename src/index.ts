@@ -7,7 +7,6 @@ import AmpActionMacro from './components/view/AmpActionMacro'
 import AmpAd from './components/view/AmpAd'
 import AmpAdExit from './components/view/AmpAdExit'
 import AmpAddthis from './components/view/AmpAddthis'
-import AmpAnalytics from './components/view/AmpAnalytics'
 import AmpAnim from './components/view/AmpAnim'
 import AmpApesterMedia from './components/view/AmpApesterMedia'
 import AmpAppBanner from './components/view/AmpAppBanner'
@@ -120,6 +119,7 @@ import AmpWistiaPlayer from './components/view/AmpWistiaPlayer'
 import AmpYotpo from './components/view/AmpYotpo'
 import AmpYoutube from './components/view/AmpYoutube'
 import AmpAccess from './components/util/AmpAccess'
+import AmpAnalytics from './components/util/AmpAnalytics'
 import AmpAnimation from './components/util/AmpAnimation'
 import AmpMustache from './components/util/AmpMustache'
 import AmpState from './components/util/AmpState'
@@ -136,7 +136,6 @@ export {
   AmpAd,
   AmpAdExit,
   AmpAddthis,
-  AmpAnalytics,
   AmpAnim,
   AmpApesterMedia,
   AmpAppBanner,
@@ -249,6 +248,7 @@ export {
   AmpYotpo,
   AmpYoutube,
   AmpAccess,
+  AmpAnalytics,
   AmpAnimation,
   AmpMustache,
   AmpState,

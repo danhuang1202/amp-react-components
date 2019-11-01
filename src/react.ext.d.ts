@@ -9,7 +9,6 @@ declare namespace JSX {
     'amp-ad-exit': any;
     'amp-ad': any;
     'amp-addthis': any;
-    'amp-analytics': any;
     'amp-anim': any;
     'amp-apester-media': any;
     'amp-app-banner': any;
