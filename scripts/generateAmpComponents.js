@@ -1,7 +1,7 @@
 const fs = require('fs-extra')
 const path = require('path')
 const puppeteer = require('puppeteer')
-const EXCLUDE_AMP_COMPONENTS = ['amp-bind', 'amp-animation', 'amp-mustache', 'amp-access']
+const EXCLUDE_AMP_COMPONENTS = ['amp-bind', 'amp-animation', 'amp-mustache', 'amp-access', 'amp-analytics']
 
 async function getAmpComponents() {
   const browser = await puppeteer.launch()
